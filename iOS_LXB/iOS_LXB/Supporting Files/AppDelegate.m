@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "LXB_FirstViewController.h"
+#import "LXB_SecondViewController.h"
+#import "LXB_ThirdViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,33 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    UITabBarController *tabbarC= [[UITabBarController alloc] init];
+    
+    self.window.rootViewController = tabbarC;
+    LXB_FirstViewController *vc1 = [LXB_FirstViewController new];
+    vc1.tabBarItem.image = [UIImage imageNamed:@"dicengjishu"];
+    vc1.tabBarItem.selectedImage =  [UIImage imageNamed:@"dicengjishu"];
+    LXB_SecondViewController *vc2 = [LXB_SecondViewController new];
+    vc2.tabBarItem.image = [UIImage imageNamed:@"ui"];
+    vc2.tabBarItem.selectedImage =  [UIImage imageNamed:@"ui"];
+    LXB_ThirdViewController*vc3 = [LXB_ThirdViewController new];
+    vc3.tabBarItem.image = [UIImage imageNamed:@"qita"];
+    vc3.tabBarItem.selectedImage =  [UIImage imageNamed:@"qita"];
+    NSMutableArray *arrayVc = [NSMutableArray arrayWithArray:@[vc1,vc2,vc3]];
+    for (NSInteger i = 0; i< 3; i++) {
+        UINavigationController *navC = [[UINavigationController alloc]initWithRootViewController:arrayVc[i]];
+        [tabbarC addChildViewController:navC];
+    }
+    
+    
+    
+    
+    
     return YES;
 }
 

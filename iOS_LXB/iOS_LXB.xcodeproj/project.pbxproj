@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16C0DAFEA2AF60F54AF0D78F /* libPods-iOS_LXBTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21250A0A7B453C087DAEDEAB /* libPods-iOS_LXBTests.a */; };
+		913222CA21CCE26C00CF4FFD /* LXBRedPacketRainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913222C821CCE26C00CF4FFD /* LXBRedPacketRainViewController.m */; };
+		913222CB21CCE26C00CF4FFD /* LXBRedPacketRainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 913222C921CCE26C00CF4FFD /* LXBRedPacketRainViewController.xib */; };
+		913222D121CCE30D00CF4FFD /* LXB_YYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913222CF21CCE30D00CF4FFD /* LXB_YYViewController.m */; };
+		913222D221CCE30D00CF4FFD /* LXB_YYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 913222D021CCE30D00CF4FFD /* LXB_YYViewController.xib */; };
+		913222D521CCE51D00CF4FFD /* LXB_RedPacketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 913222D421CCE51D00CF4FFD /* LXB_RedPacketView.m */; };
+		9134582221C3964B004B8922 /* LXB_ForwardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9134582021C3964B004B8922 /* LXB_ForwardingViewController.m */; };
+		9134582321C3964B004B8922 /* LXB_ForwardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9134582121C3964B004B8922 /* LXB_ForwardingViewController.xib */; };
+		9134582721C3A0D8004B8922 /* LXB_FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9134582621C3A0D8004B8922 /* LXB_FirstViewController.m */; };
+		9134582A21C3A0EC004B8922 /* LXB_SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9134582921C3A0EC004B8922 /* LXB_SecondViewController.m */; };
+		9134582D21C3A0F7004B8922 /* LXB_ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9134582C21C3A0F7004B8922 /* LXB_ThirdViewController.m */; };
+		91570EC121D2007500C5B84C /* LXB_RuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91570EBF21D2007500C5B84C /* LXB_RuntimeViewController.m */; };
+		91570EC221D2007500C5B84C /* LXB_RuntimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91570EC021D2007500C5B84C /* LXB_RuntimeViewController.xib */; };
+		91570EC621D201DC00C5B84C /* RuntimeZJ in Resources */ = {isa = PBXBuildFile; fileRef = 91570EC521D201DC00C5B84C /* RuntimeZJ */; };
+		9166B80521D32B4B00A54052 /* UIViewController+Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9166B80321D32B4B00A54052 /* UIViewController+Unit.m */; };
 		91FFF0BB21C2649100549976 /* iOS_LXBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FFF0BA21C2649100549976 /* iOS_LXBTests.m */; };
 		91FFF0C621C2649100549976 /* iOS_LXBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FFF0C521C2649100549976 /* iOS_LXBUITests.m */; };
 		91FFF0DE21C26A5500549976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FFF0D521C26A5500549976 /* Assets.xcassets */; };
@@ -15,6 +30,8 @@
 		91FFF0E121C26A5500549976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FFF0D921C26A5500549976 /* Main.storyboard */; };
 		91FFF0E221C26A5500549976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FFF0DB21C26A5500549976 /* main.m */; };
 		91FFF0E321C26A5500549976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FFF0DC21C26A5500549976 /* AppDelegate.m */; };
+		D0AD11C5A74A5C7CBB5A8490 /* libPods-iOS_LXB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2ABC5303F9541FFC0F8C96 /* libPods-iOS_LXB.a */; };
+		EDE8467E4EC9856D27AFFFF8 /* libPods-iOS_LXBUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 422AA179E8DFB699AADF7720 /* libPods-iOS_LXBUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B9FF67603F246E5EF07BA51 /* Pods-iOS_LXBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_LXBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_LXBTests/Pods-iOS_LXBTests.release.xcconfig"; sourceTree = "<group>"; };
+		21250A0A7B453C087DAEDEAB /* libPods-iOS_LXBTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_LXBTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A83B5E0BD7D782FCF967BE3 /* Pods-iOS_LXB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_LXB.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_LXB/Pods-iOS_LXB.release.xcconfig"; sourceTree = "<group>"; };
+		33082E4E9DE5E860DCDEECCD /* Pods-iOS_LXBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_LXBUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_LXBUITests/Pods-iOS_LXBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3FB2D29947D97859DAB00C64 /* Pods-iOS_LXB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_LXB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_LXB/Pods-iOS_LXB.debug.xcconfig"; sourceTree = "<group>"; };
+		422AA179E8DFB699AADF7720 /* libPods-iOS_LXBUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_LXBUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2ABC5303F9541FFC0F8C96 /* libPods-iOS_LXB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_LXB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9108B19721C78EB5004F691A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		913222C721CCE26C00CF4FFD /* LXBRedPacketRainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBRedPacketRainViewController.h; sourceTree = "<group>"; };
+		913222C821CCE26C00CF4FFD /* LXBRedPacketRainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBRedPacketRainViewController.m; sourceTree = "<group>"; };
+		913222C921CCE26C00CF4FFD /* LXBRedPacketRainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LXBRedPacketRainViewController.xib; sourceTree = "<group>"; };
+		913222CE21CCE30D00CF4FFD /* LXB_YYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXB_YYViewController.h; sourceTree = "<group>"; };
+		913222CF21CCE30D00CF4FFD /* LXB_YYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXB_YYViewController.m; sourceTree = "<group>"; };
+		913222D021CCE30D00CF4FFD /* LXB_YYViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LXB_YYViewController.xib; sourceTree = "<group>"; };
+		913222D321CCE51D00CF4FFD /* LXB_RedPacketView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXB_RedPacketView.h; sourceTree = "<group>"; };
+		913222D421CCE51D00CF4FFD /* LXB_RedPacketView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXB_RedPacketView.m; sourceTree = "<group>"; };
+		9134581F21C3964B004B8922 /* LXB_ForwardingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXB_ForwardingViewController.h; sourceTree = "<group>"; };
+		9134582021C3964B004B8922 /* LXB_ForwardingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXB_ForwardingViewController.m; sourceTree = "<group>"; };
+		9134582121C3964B004B8922 /* LXB_ForwardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LXB_ForwardingViewController.xib; sourceTree = "<group>"; };
+		9134582521C3A0D8004B8922 /* LXB_FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXB_FirstViewController.h; sourceTree = "<group>"; };
+		9134582621C3A0D8004B8922 /* LXB_FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXB_FirstViewController.m; sourceTree = "<group>"; };
+		9134582821C3A0EC004B8922 /* LXB_SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXB_SecondViewController.h; sourceTree = "<group>"; };
+		9134582921C3A0EC004B8922 /* LXB_SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXB_SecondViewController.m; sourceTree = "<group>"; };
+		9134582B21C3A0F7004B8922 /* LXB_ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXB_ThirdViewController.h; sourceTree = "<group>"; };
+		9134582C21C3A0F7004B8922 /* LXB_ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXB_ThirdViewController.m; sourceTree = "<group>"; };
+		91570EBE21D2007500C5B84C /* LXB_RuntimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXB_RuntimeViewController.h; sourceTree = "<group>"; };
+		91570EBF21D2007500C5B84C /* LXB_RuntimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXB_RuntimeViewController.m; sourceTree = "<group>"; };
+		91570EC021D2007500C5B84C /* LXB_RuntimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LXB_RuntimeViewController.xib; sourceTree = "<group>"; };
+		91570EC521D201DC00C5B84C /* RuntimeZJ */ = {isa = PBXFileReference; lastKnownFileType = text; path = RuntimeZJ; sourceTree = "<group>"; };
+		9166B80321D32B4B00A54052 /* UIViewController+Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Unit.m"; sourceTree = "<group>"; };
+		9166B80421D32B4B00A54052 /* UIViewController+Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Unit.h"; sourceTree = "<group>"; };
 		91FFF09E21C2648F00549976 /* iOS_LXB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_LXB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FFF0AF21C2649100549976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91FFF0B621C2649100549976 /* iOS_LXBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_LXBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +99,8 @@
 		91FFF0DB21C26A5500549976 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91FFF0DC21C26A5500549976 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		91FFF0DD21C26A5500549976 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A64040D073CA8805AFE99862 /* Pods-iOS_LXBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_LXBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_LXBTests/Pods-iOS_LXBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E240E9861E7DC008C4874C16 /* Pods-iOS_LXBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_LXBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_LXBUITests/Pods-iOS_LXBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0AD11C5A74A5C7CBB5A8490 /* libPods-iOS_LXB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C0DAFEA2AF60F54AF0D78F /* libPods-iOS_LXBTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +124,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE8467E4EC9856D27AFFFF8 /* libPods-iOS_LXBUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F5A14BC98E63465A3F7C577 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FB2D29947D97859DAB00C64 /* Pods-iOS_LXB.debug.xcconfig */,
+				2A83B5E0BD7D782FCF967BE3 /* Pods-iOS_LXB.release.xcconfig */,
+				A64040D073CA8805AFE99862 /* Pods-iOS_LXBTests.debug.xcconfig */,
+				0B9FF67603F246E5EF07BA51 /* Pods-iOS_LXBTests.release.xcconfig */,
+				E240E9861E7DC008C4874C16 /* Pods-iOS_LXBUITests.debug.xcconfig */,
+				33082E4E9DE5E860DCDEECCD /* Pods-iOS_LXBUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D606C2C05E6E88D8A5B7B13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D2ABC5303F9541FFC0F8C96 /* libPods-iOS_LXB.a */,
+				21250A0A7B453C087DAEDEAB /* libPods-iOS_LXBTests.a */,
+				422AA179E8DFB699AADF7720 /* libPods-iOS_LXBUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		913222CC21CCE2FC00CF4FFD /* Else */ = {
+			isa = PBXGroup;
+			children = (
+				913222CD21CCE2FC00CF4FFD /* YY */,
+			);
+			path = Else;
+			sourceTree = "<group>";
+		};
+		913222CD21CCE2FC00CF4FFD /* YY */ = {
+			isa = PBXGroup;
+			children = (
+				913222CE21CCE30D00CF4FFD /* LXB_YYViewController.h */,
+				913222CF21CCE30D00CF4FFD /* LXB_YYViewController.m */,
+				913222D021CCE30D00CF4FFD /* LXB_YYViewController.xib */,
+			);
+			path = YY;
+			sourceTree = "<group>";
+		};
+		9134582421C3A0A6004B8922 /* TabbarChirdVc */ = {
+			isa = PBXGroup;
+			children = (
+				9134582521C3A0D8004B8922 /* LXB_FirstViewController.h */,
+				9134582621C3A0D8004B8922 /* LXB_FirstViewController.m */,
+				9134582821C3A0EC004B8922 /* LXB_SecondViewController.h */,
+				9134582921C3A0EC004B8922 /* LXB_SecondViewController.m */,
+				9134582B21C3A0F7004B8922 /* LXB_ThirdViewController.h */,
+				9134582C21C3A0F7004B8922 /* LXB_ThirdViewController.m */,
+			);
+			path = TabbarChirdVc;
+			sourceTree = "<group>";
+		};
+		9166B80221D32B4B00A54052 /* MethodSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				9166B80421D32B4B00A54052 /* UIViewController+Unit.h */,
+				9166B80321D32B4B00A54052 /* UIViewController+Unit.m */,
+			);
+			path = MethodSwizzling;
+			sourceTree = "<group>";
+		};
 		91FFF09521C2648F00549976 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +201,8 @@
 				91FFF0B921C2649100549976 /* iOS_LXBTests */,
 				91FFF0C421C2649100549976 /* iOS_LXBUITests */,
 				91FFF09F21C2648F00549976 /* Products */,
+				4F5A14BC98E63465A3F7C577 /* Pods */,
+				6D606C2C05E6E88D8A5B7B13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +219,7 @@
 		91FFF0A021C2648F00549976 /* iOS_LXB */ = {
 			isa = PBXGroup;
 			children = (
+				913222CC21CCE2FC00CF4FFD /* Else */,
 				91FFF0E621C26B2A00549976 /* Base */,
 				91FFF0E421C26B2A00549976 /* Ui */,
 				91FFF0D321C26A5500549976 /* Supporting Files */,
@@ -130,14 +249,16 @@
 		91FFF0D321C26A5500549976 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9134582421C3A0A6004B8922 /* TabbarChirdVc */,
 				91FFF0D421C26A5500549976 /* AppDelegate.h */,
-				91FFF0D521C26A5500549976 /* Assets.xcassets */,
+				91FFF0DC21C26A5500549976 /* AppDelegate.m */,
+				91FFF0DD21C26A5500549976 /* ViewController.h */,
 				91FFF0D621C26A5500549976 /* ViewController.m */,
+				91FFF0D521C26A5500549976 /* Assets.xcassets */,
 				91FFF0D721C26A5500549976 /* LaunchScreen.storyboard */,
 				91FFF0D921C26A5500549976 /* Main.storyboard */,
 				91FFF0DB21C26A5500549976 /* main.m */,
-				91FFF0DC21C26A5500549976 /* AppDelegate.m */,
-				91FFF0DD21C26A5500549976 /* ViewController.h */,
+				9108B19721C78EB5004F691A /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,6 +274,11 @@
 		91FFF0E521C26B2A00549976 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				913222C721CCE26C00CF4FFD /* LXBRedPacketRainViewController.h */,
+				913222C821CCE26C00CF4FFD /* LXBRedPacketRainViewController.m */,
+				913222C921CCE26C00CF4FFD /* LXBRedPacketRainViewController.xib */,
+				913222D321CCE51D00CF4FFD /* LXB_RedPacketView.h */,
+				913222D421CCE51D00CF4FFD /* LXB_RedPacketView.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -160,6 +286,7 @@
 		91FFF0E621C26B2A00549976 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				9166B80221D32B4B00A54052 /* MethodSwizzling */,
 				91FFF0E721C26B2A00549976 /* Runloop */,
 				91FFF0E821C26B2A00549976 /* Forwarding */,
 				91FFF0E921C26B2A00549976 /* Runtime */,
@@ -178,6 +305,9 @@
 		91FFF0E821C26B2A00549976 /* Forwarding */ = {
 			isa = PBXGroup;
 			children = (
+				9134581F21C3964B004B8922 /* LXB_ForwardingViewController.h */,
+				9134582021C3964B004B8922 /* LXB_ForwardingViewController.m */,
+				9134582121C3964B004B8922 /* LXB_ForwardingViewController.xib */,
 			);
 			path = Forwarding;
 			sourceTree = "<group>";
@@ -185,6 +315,10 @@
 		91FFF0E921C26B2A00549976 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				91570EC521D201DC00C5B84C /* RuntimeZJ */,
+				91570EBE21D2007500C5B84C /* LXB_RuntimeViewController.h */,
+				91570EBF21D2007500C5B84C /* LXB_RuntimeViewController.m */,
+				91570EC021D2007500C5B84C /* LXB_RuntimeViewController.xib */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -203,9 +337,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91FFF0CA21C2649100549976 /* Build configuration list for PBXNativeTarget "iOS_LXB" */;
 			buildPhases = (
+				9FC5743C1A2E795D75F999CC /* [CP] Check Pods Manifest.lock */,
 				91FFF09A21C2648F00549976 /* Sources */,
 				91FFF09B21C2648F00549976 /* Frameworks */,
 				91FFF09C21C2648F00549976 /* Resources */,
+				033F7DDC558D21033E5A1DEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,6 +356,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91FFF0CD21C2649100549976 /* Build configuration list for PBXNativeTarget "iOS_LXBTests" */;
 			buildPhases = (
+				0F15ED51E126F96A7FFF5583 /* [CP] Check Pods Manifest.lock */,
 				91FFF0B221C2649100549976 /* Sources */,
 				91FFF0B321C2649100549976 /* Frameworks */,
 				91FFF0B421C2649100549976 /* Resources */,
@@ -238,6 +375,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91FFF0D021C2649100549976 /* Build configuration list for PBXNativeTarget "iOS_LXBUITests" */;
 			buildPhases = (
+				B5D4440C565D7F72ECDB1852 /* [CP] Check Pods Manifest.lock */,
 				91FFF0BD21C2649100549976 /* Sources */,
 				91FFF0BE21C2649100549976 /* Frameworks */,
 				91FFF0BF21C2649100549976 /* Resources */,
@@ -299,9 +437,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9134582321C3964B004B8922 /* LXB_ForwardingViewController.xib in Resources */,
+				91570EC621D201DC00C5B84C /* RuntimeZJ in Resources */,
 				91FFF0E121C26A5500549976 /* Main.storyboard in Resources */,
 				91FFF0DE21C26A5500549976 /* Assets.xcassets in Resources */,
 				91FFF0E021C26A5500549976 /* LaunchScreen.storyboard in Resources */,
+				913222CB21CCE26C00CF4FFD /* LXBRedPacketRainViewController.xib in Resources */,
+				91570EC221D2007500C5B84C /* LXB_RuntimeViewController.xib in Resources */,
+				913222D221CCE30D00CF4FFD /* LXB_YYViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,13 +464,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		033F7DDC558D21033E5A1DEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOS_LXB/Pods-iOS_LXB-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS_LXB/Pods-iOS_LXB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F15ED51E126F96A7FFF5583 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_LXBTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FC5743C1A2E795D75F999CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_LXB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D4440C565D7F72ECDB1852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_LXBUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		91FFF09A21C2648F00549976 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9134582221C3964B004B8922 /* LXB_ForwardingViewController.m in Sources */,
+				9134582721C3A0D8004B8922 /* LXB_FirstViewController.m in Sources */,
 				91FFF0E221C26A5500549976 /* main.m in Sources */,
+				9134582D21C3A0F7004B8922 /* LXB_ThirdViewController.m in Sources */,
+				913222CA21CCE26C00CF4FFD /* LXBRedPacketRainViewController.m in Sources */,
+				913222D121CCE30D00CF4FFD /* LXB_YYViewController.m in Sources */,
+				9166B80521D32B4B00A54052 /* UIViewController+Unit.m in Sources */,
+				91570EC121D2007500C5B84C /* LXB_RuntimeViewController.m in Sources */,
+				9134582A21C3A0EC004B8922 /* LXB_SecondViewController.m in Sources */,
 				91FFF0DF21C26A5500549976 /* ViewController.m in Sources */,
+				913222D521CCE51D00CF4FFD /* LXB_RedPacketView.m in Sources */,
 				91FFF0E321C26A5500549976 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,11 +744,16 @@
 		};
 		91FFF0CB21C2649100549976 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB2D29947D97859DAB00C64 /* Pods-iOS_LXB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB96JW8A5T;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/minorukinsho/Desktop/iOS_LXB_Github/iOS_LXB/iOS_LXB/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = iOS_LXB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -514,11 +766,16 @@
 		};
 		91FFF0CC21C2649100549976 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A83B5E0BD7D782FCF967BE3 /* Pods-iOS_LXB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB96JW8A5T;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/minorukinsho/Desktop/iOS_LXB_Github/iOS_LXB/iOS_LXB/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = iOS_LXB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,6 +788,7 @@
 		};
 		91FFF0CE21C2649100549976 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64040D073CA8805AFE99862 /* Pods-iOS_LXBTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +808,7 @@
 		};
 		91FFF0CF21C2649100549976 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9FF67603F246E5EF07BA51 /* Pods-iOS_LXBTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -569,6 +828,7 @@
 		};
 		91FFF0D121C2649100549976 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E240E9861E7DC008C4874C16 /* Pods-iOS_LXBUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB96JW8A5T;
@@ -587,6 +847,7 @@
 		};
 		91FFF0D221C2649100549976 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33082E4E9DE5E860DCDEECCD /* Pods-iOS_LXBUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RB96JW8A5T;

@@ -1,30 +1,33 @@
+
 //
-//  ViewController.m
+//  LXB_SecondViewController.m
 //  iOS_LXB
 //
-//  Created by 穗金所 on 2018/12/13.
+//  Created by 穗金所 on 2018/12/14.
 //  Copyright © 2018年 kodbin. All rights reserved.
 //
 
-#import "ViewController.h"
-//#import "LXB_ForwardingViewController.h"
+#import "LXB_SecondViewController.h"
+#import "LXBRedPacketRainViewController.h"
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface LXB_SecondViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,strong)UITableView *tableView;
 @property (nonatomic,strong)NSMutableArray *arrayData;
 
 @end
 
-@implementation ViewController
+@implementation LXB_SecondViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor whiteColor];
-    self.title = @"iOS开发总结";
+    // Do any additional setup after loading the view.
+    self.tabBarItem.title = @"TWO";
+    self.title = @"TWO";
+   
     
     [self.view addSubview:self.tableView];
+    
 }
 
 #pragma mark -dele/data
@@ -48,10 +51,10 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     switch (indexPath.row) {
         case 0://消息转发
-            {
-//                LXB_ForwardingViewController *vc = [[LXB_ForwardingViewController alloc]init];
-//                [self.navigationController pushViewController:vc animated:YES];
-            }
+        {
+            LXBRedPacketRainViewController *vc = [[LXBRedPacketRainViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
             
         default:
@@ -71,10 +74,19 @@
 - (NSMutableArray *)arrayData{
     if (!_arrayData) {
         _arrayData = [NSMutableArray array];
-        [_arrayData addObjectsFromArray:@[@"消息转发"]];
+        [_arrayData addObjectsFromArray:@[@"红包雨"]];
     }
     return _arrayData;
 }
 
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

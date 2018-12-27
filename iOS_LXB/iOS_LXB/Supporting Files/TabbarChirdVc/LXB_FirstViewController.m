@@ -1,26 +1,30 @@
 //
-//  ViewController.m
+//  LXB_FirstViewController.m
 //  iOS_LXB
 //
-//  Created by 穗金所 on 2018/12/13.
+//  Created by 穗金所 on 2018/12/14.
 //  Copyright © 2018年 kodbin. All rights reserved.
 //
 
-#import "ViewController.h"
-//#import "LXB_ForwardingViewController.h"
+#import "LXB_FirstViewController.h"
+#import "LXB_ForwardingViewController.h"
+#import "LXB_RuntimeViewController.h"
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface LXB_FirstViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,strong)UITableView *tableView;
 @property (nonatomic,strong)NSMutableArray *arrayData;
 
 @end
 
-@implementation ViewController
+@implementation LXB_FirstViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.tabBarItem.title = @"ONE";
+    
+    
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"iOS开发总结";
     
@@ -48,12 +52,18 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     switch (indexPath.row) {
         case 0://消息转发
-            {
-//                LXB_ForwardingViewController *vc = [[LXB_ForwardingViewController alloc]init];
-//                [self.navigationController pushViewController:vc animated:YES];
-            }
+        {
+            LXB_ForwardingViewController *vc = [[LXB_ForwardingViewController alloc]init];
+            [vc makeSomeT];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
-            
+        case 1://runtime
+        {
+            LXB_RuntimeViewController *vc = [[LXB_RuntimeViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
         default:
             break;
     }
@@ -71,10 +81,20 @@
 - (NSMutableArray *)arrayData{
     if (!_arrayData) {
         _arrayData = [NSMutableArray array];
-        [_arrayData addObjectsFromArray:@[@"消息转发"]];
+        [_arrayData addObjectsFromArray:@[@"消息转发",@"runtime"]];
     }
     return _arrayData;
 }
 
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end
